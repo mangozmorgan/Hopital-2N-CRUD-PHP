@@ -1,0 +1,181 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    display: flex;
+    width: 20%;
+    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+    border-radius: 5px;
+    padding: 1vw;
+    flex-direction: column;
+}
+
+.hide{
+    display: none;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+a{
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5vw 1vw;
+    color: white;
+    margin: 0.5vw 0vw;
+    background-color: #59a6da;
+    text-decoration: none;
+}
+a:hover{
+    background-color:#3498db;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containLink{
+    margin-top: 3vw;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    
+    border-radius: 5px;
+}
+
+
+.userCard{
+    height: max-content;
+    background: #ffffff;
+    margin-top: 1vw;
+    border-radius: 5px;
+    padding: 2vw;
+    
+    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+}
+.bloc1{
+    width: 50%;
+}
+.pic{
+    float: right;
+       border-radius: 100%;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    background-image: url('../images/user.png');
+    background-position: center;
+    background-size: 80%;
+    width: 6vw;
+    height: 6vw;
+    margin-bottom: 0.5vw;
+    
+}
+.controlBtn{
+    display: flex;
+}
+
+.pagesDiv{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.pagesDiv a {
+    margin-left: 1vw;
+    background-color: #a29bfe;
+}
+
+.controlBtn a {
+    margin: 0.5vw;
+}
+
+.contain2{
+    display: flex;
+}
+
+.mdfPatient{
+    border: unset;
+    margin-left: 10%;
+    width: 50%;
+    
+    
+}
+select{
+   
+    padding: 0.2vw;
+    border: 1px solid #42414180;
+    border-radius: 5px;
+
+}
+
+.searchPatient{
+    display: flex;
+border: unset;
+}
+
+.patientProfile{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.goById{
+    background-color: unset;
+    color: black;
+}
+
+.goById:hover{
+     background-color: unset;
+    color: black;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+.titleDiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.redCross{
+    margin-left: 1vw;
+    width: 3vw;
+    height: 3vw;
+    background-image: url("../images/redCross.png");
+    background-position: center;
+    background-size: cover;
+}
+.redCross h1{
+    width: max-content;
+
+}
+
+input{
+    border: 1px solid rgb(155, 151, 151);
+    margin-top: 0.5vw;
+    border-radius: 5px;
+   background-color: rgba(0, 0, 0,0);
+}
+input[type="submit"]{
+    transition: ease-in-out all 0.3s;
+    border: rgba(116, 185, 255,0.8) solid 1px;
+ cursor:pointer;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    transition: ease-in-out all 0.3s;
+     border: rgba(116, 185, 255,0.8) solid 1px;
+    
+ background-color:rgba(116, 185, 255,0.8) ;
+ color: white;
+}

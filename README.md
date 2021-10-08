@@ -11,8 +11,12 @@ Petit exercice sur le Crud en PHP la base de donnée est fournie avec le projet 
 
 ### Installation
 
+Lancer wamp 
 Importer la base de donnée dans MySql
 
+## En cas de problèmes 
+
+Verifier la class BddConnect dans ./model/Connection.php.
 
 ## Versions
 V 1.0 08/10/2021
